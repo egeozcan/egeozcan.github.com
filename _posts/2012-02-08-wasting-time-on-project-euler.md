@@ -1,7 +1,7 @@
 ---
 layout: post
 category : code
-tags : [javascript, code]
+tags : [javascript, code, project euler]
 ---
 {% include JB/setup %}
 
