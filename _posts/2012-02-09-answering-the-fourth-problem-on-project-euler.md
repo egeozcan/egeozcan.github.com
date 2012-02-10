@@ -15,33 +15,7 @@ Finding the largest palindrome made from the product of two 3-digit numbers.
 
 ## The Solution
 
-    var x = 9, y = 9, z = 9; i = 999, found = false, latestPalindrome = 0;
-    while(x > 0) {
-        if(found) break;
-    	y = 9;
-    	while(y >= 0) {
-    		if(found) break;
-    		z = 9;
-    		while(z >= 0) {
-    			if(found) break;
-    			latestPalindrome = parseInt([x,y,z,z,y,x].join(""));
-    			for(var i = 999; i >= 100; i--) {
-    				if(found) break;
-    				if(latestPalindrome % i === 0) {
-    					(function(divisionRes) {
-    						if (divisionRes.toString().length === 3) {
-    							console.log(latestPalindrome, divisionRes, i);
-    							found = true;
-    						}
-    					})(latestPalindrome/i);
-    				}
-    			}
-    			z--;
-    		}
-    		y--;
-    	}
-    	x--;
-    }
+<script src="https://gist.github.com/1788749.js"> </script>
     
 Sorry for the lack of elegance. The most interesting thing to learn while coding
 this was finding out that <code>parseInt([x,y,z,z,y,x].join(""))</code> was much
