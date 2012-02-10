@@ -1,7 +1,7 @@
 ---
 layout: post
 category : code
-tags : [javascript, code]
+tags : [javascript, code, project euler]
 ---
 {% include JB/setup %}
 
@@ -13,7 +13,7 @@ What is the largest prime factor of the number 600851475143?
 
 ## Solution
 
-	var originalTarget = 600851475143;
+    var originalTarget = 600851475143;
 	var target = originalTarget;
 	var i = 2;
 	while(i<target) {
