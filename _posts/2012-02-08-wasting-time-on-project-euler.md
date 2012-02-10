@@ -13,6 +13,6 @@ What is the largest prime factor of the number 600851475143?
 
 ## Solution
 
-    <script src="https://gist.github.com/1788732.js"> </script>
+<script src="https://gist.github.com/1788732.js"> </script>
 	
 That should do it. There could be some room to improve, however.
