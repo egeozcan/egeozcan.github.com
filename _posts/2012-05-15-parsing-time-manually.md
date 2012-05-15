@@ -6,7 +6,7 @@ tags : [javascript, code, time, parsing]
 {% include JB/setup %}
 
 How do you get the minute difference between two 12-hour dates encoded in a
-string?
+string like "12:05am-02:55pm"?
 
 ## Short Answer
 
