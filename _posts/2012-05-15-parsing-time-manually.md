@@ -1,20 +1,19 @@
 ---
 layout: post
 category : code
-tags : [javascript, code, project euler]
+tags : [javascript, code, time, parsing]
 ---
 {% include JB/setup %}
 
-## The Problem
+How do you get the minute difference between two 12-hour dates encoded in a
+string?
 
-I hate clichés but there we go:
+## Short Answer
 
-What is the 10 001st prime number?
+You shouldn't. Get your data properly!
 
-## The Solution
+## But Still...
 
-Let's try a one-liner this time:
-
-    var a=[],b;for(b=2;10001>a.length;b++)a.some(function(c){return 0==b%c})||a.push(b);console.log(a.pop());
-	
-yay.
+<script src="https://gist.github.com/2701255.js"> </script>
+    
+I hate myself.
