@@ -1,22 +1,19 @@
 ---
 layout: post
 category : code
-tags : [javascript, code, project euler]
+tags : [javascript, code, time, parsing]
 ---
 {% include JB/setup %}
 
-Yet another Project Euler problem, solved with rather brute force. I simply
-became too business process oriented to develop clever solutions to mathematical
-problems, maybe? =)
+How do you get the minute difference between two 12-hour dates encoded in a
+string?
 
-## The Problem
+## Short Answer
 
-Finding the largest palindrome made from the product of two 3-digit numbers.
+You shouldn't. Get your data properly!
 
-## The Solution
+## But Still...
 
-<script src="https://gist.github.com/1788749.js"> </script>
+<script src="https://gist.github.com/2701255.js"> </script>
     
-Sorry for the lack of elegance. The most interesting thing to learn while coding
-this was finding out that <code>parseInt([x,y,z,z,y,x].join(""))</code> was much
-faster than <code>(x*100001) + (y*10010) + (z*1100)</code> in JavaScript. Hmm.
+I hate myself.
