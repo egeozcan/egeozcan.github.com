@@ -8,7 +8,9 @@ tags : [javascript, code, time, parsing]
 How do you get the minute difference between two 12-hour dates encoded in a
 string like
 
-    "12:05am-02:55pm"?
+    "12:05am-02:55pm"
+	
+?
 
 ## Short Answer
 
