@@ -1,6 +1,6 @@
 ---
 layout: post
-category : general
+category : code
 tags : [javascript, programming languages, hacker news]
 ---
 {% include JB/setup %}
