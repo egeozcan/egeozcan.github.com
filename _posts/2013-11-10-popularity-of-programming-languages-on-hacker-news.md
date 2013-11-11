@@ -1,7 +1,7 @@
 ---
 layout: post
 category : code
-tags : [javascript, programming languages, hacker news]
+tags : [javascript]
 ---
 {% include JB/setup %}
 
